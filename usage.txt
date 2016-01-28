@@ -1,0 +1,73 @@
+##Usage
+
+#HOW TO USE IT
+
+ZoomEye uses some keywords like every search engine and it’s very simple to use.
+
+#Search by application:
+
+app: application name
+
+ver: version number
+
+#Search by location:
+
+country: country code (for example: UK, IT, ES, FR, CN, JP..)
+
+city: name of city
+
+You can combine multiple countries and cities in your queries, the filters act as a logical OR.
+
+#Search by port:
+
+port: port number
+
+You can combine multiple ports in your queries, the filters act as a logical OR.
+
+#Search by OS:
+
+os: name of the operating system (for example os:linux)
+
+#Search by service:
+
+service: service name
+
+You can combine multiple services in your queries, the filters act as a logical OR. For a full list of services, see https://svn.nmap.org/nmap/nmap-services.
+
+#Search by hostname:
+
+hostname: hostname (for example hostname:google.com)
+
+You can combine multiple hostnames in your queries, the filters act as a logical OR.
+
+#Search by IP Address:
+
+ip: ip address (for example ip:8.8.8.8)
+
+You can combine multiple IPs in your queries, the filters act as a logical OR.
+
+#Search by CIDR:
+
+cidr: cidr segment (for example cidr:8.8.8.8/24)
+
+Registered users are limited to 5 searches/day for CIDR.
+
+#Search by site:
+
+site: domain name (for example site:google.com)
+
+#Search by HTTP Headers:
+
+headers: headers in HTTP request
+
+#Search by SEO keywords:
+
+keywords: keywords defined inside <meta name=”Keywords”>
+
+#Search by description:
+
+desc: description inside <meta name=”description”>
+
+#Search by title:
+
+title: title inside <title>
